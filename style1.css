@@ -1,0 +1,257 @@
+header {
+    width: 1020px;
+    height: 190px;
+    background-color: #2d303a;
+    display: flex;
+    flex-direction: column;
+}
+
+.header p {
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin-left: 40px;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-top: 65px;
+    margin-left: 40px;
+    margin-bottom: 17px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    margin-left: 42px;
+}
+
+h3{
+    font-size: 12px;
+    line-height: 22px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    text-align: center;
+}
+
+.border {
+    height: 22px;
+    border-radius: 5px;
+    background-color: #2d303a;
+    border: 1px solid #666d89;
+    margin-right: 11px;
+}
+
+
+.all {
+    width: 29px;
+}
+
+.WebDesing {
+    width: 78px;
+}
+
+.GraphicDesign {
+    width: 93px;
+}
+
+.ArtWork {
+    width: 57px;
+}
+
+.hov:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+/*.all:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.WebDesing:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.GraphicDesign:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.ArtWork:hover {
+    color: white;
+    border: 1px solid white;
+}*/
+
+.white:hover {
+    color: white;
+}
+
+main {
+    width: 1020px;
+    height: 680px;
+    background-color: #2d303a;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 940px;
+    height: 601px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 16px 40px 57px 40px;
+}
+
+.pic {
+    width: 220px;
+    height: 187px;
+    background-color: #464b5e;
+}
+
+.left {
+    margin-left: 5px;
+}
+
+.row2 {
+    margin-top: 7px;
+}
+
+.row3 {
+    align-self: flex-end;
+}
+
+.bottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+}
+
+footer {
+    width: 1020px;
+    height: 728px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 210px;
+}
+
+.header p{
+    width: 980px;
+}
+
+.About {
+    height: 517px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    background-color: #464b5e;
+}
+
+.jensen_img {
+    margin-left: 40px;
+}
+
+.miles_img {
+    margin-left: 20px;
+}
+
+.description{
+    height: 100px;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.miles_h2 {
+    margin-left: 20px;
+}
+
+.jensen_h2 {
+    margin-left: 40px;
+}
+
+.About p{
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+
+.jensen_p {
+    margin-left: 40px;
+}
+
+.miles_p {
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.jensen_nav {
+    margin-left: 40px;
+}
+
+.miles_nav {
+    margin-left: 20px;
+}
+
+.circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #666d89;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-right: 8px;
+}
+
+svg {
+    fill: #666d89;
+    width: 20px;
+    height: 20px;
+}
+
+svg:hover {
+    fill:black;
+}
+
+
